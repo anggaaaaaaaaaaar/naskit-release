@@ -127,9 +127,23 @@ and accept their terms; NASKit does not resell it.
 ### Compiled into NASKit
 
 The `naskit` binary is built only from the Go standard library
-(BSD-3-Clause, notice below). The Android app uses OkHttp and Okio
-(Apache-2.0), AndroidX WorkManager (Apache-2.0) and the Kotlin standard
-library (Apache-2.0).
+(BSD-3-Clause, notice below).
+
+The Android app contains these libraries. Their full license texts ship
+inside the APK and are shown in the app under menu → Lisensi open source.
+
+| Component | License |
+|---|---|
+| AndroidX (Activity, Compose, Material 3, Lifecycle, Fragment, Biometric, DataStore, WorkManager, ExifInterface, Media3) | Apache-2.0 |
+| Kotlin standard library, kotlinx.coroutines | Apache-2.0 |
+| OkHttp, Okio | Apache-2.0 |
+| Tink, Gson, Guava, Error Prone and JSR 305 annotations | Apache-2.0 |
+| Protocol Buffers lite (inside Tink) | BSD-3-Clause |
+| Checker Framework qualifiers | MIT |
+| Plus Jakarta Sans font | SIL Open Font License 1.1 |
+| ML Kit document scanner (Google Play services) | Google APIs and ML Kit terms, not open source |
+
+None of these is under the GPL, LGPL or AGPL.
 
 ### Names and logos
 
