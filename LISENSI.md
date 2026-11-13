@@ -137,9 +137,23 @@ layanan itu.
 
 Binary `naskit` hanya dibangun dari library standar Go (BSD-3-Clause,
 pemberitahuannya ada di akhir [LICENSE.md](LICENSE.md) dan wajib
-disertakan dalam bahasa aslinya). Aplikasi Android memakai OkHttp dan Okio
-(Apache-2.0), AndroidX WorkManager (Apache-2.0), dan library standar
-Kotlin (Apache-2.0).
+disertakan dalam bahasa aslinya).
+
+Aplikasi Android berisi library berikut. Teks lengkap lisensinya ikut di
+dalam APK dan bisa dibaca di aplikasi lewat menu → Lisensi open source.
+
+| Komponen | Lisensi |
+|---|---|
+| AndroidX (Activity, Compose, Material 3, Lifecycle, Fragment, Biometric, DataStore, WorkManager, ExifInterface, Media3) | Apache-2.0 |
+| Library standar Kotlin, kotlinx.coroutines | Apache-2.0 |
+| OkHttp, Okio | Apache-2.0 |
+| Tink, Gson, Guava, anotasi Error Prone dan JSR 305 | Apache-2.0 |
+| Protocol Buffers lite (di dalam Tink) | BSD-3-Clause |
+| Checker Framework qualifiers | MIT |
+| Huruf Plus Jakarta Sans | SIL Open Font License 1.1 |
+| Pemindai dokumen ML Kit (Layanan Google Play) | Persyaratan Google APIs dan ML Kit, bukan open source |
+
+Tidak satu pun berlisensi GPL, LGPL, atau AGPL.
 
 ### Nama dan logo
 
