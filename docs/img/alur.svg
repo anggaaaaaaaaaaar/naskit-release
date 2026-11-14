@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-labelledby="t">
+  <title id="t">Cara NASKit bekerja: perangkat di rumah dan di luar rumah tersambung ke satu mesin NAS</title>
+  <rect width="1280" height="520" rx="20" fill="#f6f4ee"/>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#1d2a2e">
+    <!-- clients -->
+    <g font-size="20">
+      <rect x="40" y="60" width="300" height="88" rx="14" fill="#fff" stroke="#d8d3c4" stroke-width="2"/>
+      <text x="64" y="98" font-weight="700">Browser</text>
+      <text x="64" y="126" font-size="17" fill="#5b6466">Nextcloud dan galeri foto</text>
+      <rect x="40" y="176" width="300" height="88" rx="14" fill="#fff" stroke="#d8d3c4" stroke-width="2"/>
+      <text x="64" y="214" font-weight="700">Aplikasi Android NASKit</text>
+      <text x="64" y="242" font-size="17" fill="#5b6466">File, foto, Admin NAS</text>
+      <rect x="40" y="292" width="300" height="88" rx="14" fill="#fff" stroke="#d8d3c4" stroke-width="2"/>
+      <text x="64" y="330" font-weight="700">Laptop di rumah</text>
+      <text x="64" y="358" font-size="17" fill="#5b6466">Folder jaringan (Samba)</text>
+      <rect x="40" y="408" width="300" height="88" rx="14" fill="#fff" stroke="#d8d3c4" stroke-width="2"/>
+      <text x="64" y="446" font-weight="700">Super admin</text>
+      <text x="64" y="474" font-size="17" fill="#5b6466">Situs admin, port 8088</text>
+    </g>
+    <!-- links -->
+    <g stroke="#0a9396" stroke-width="3" fill="none">
+      <path d="M340 104 C 420 104, 420 240, 500 240"/>
+      <path d="M340 220 C 420 220, 420 260, 500 260"/>
+      <path d="M340 336 C 420 336, 420 280, 500 280"/>
+      <path d="M340 452 C 420 452, 420 300, 500 300"/>
+    </g>
+    <!-- NAS box -->
+    <rect x="500" y="60" width="440" height="436" rx="18" fill="#001219"/>
+    <g transform="translate(528 84)">
+      <rect width="48" height="48" rx="12" fill="#001219" stroke="#0a9396"/>
+      <path d="M12 36V12h6l9 13.5V36h-1.5L18 24.5V36z" fill="#e9d8a6"/>
+      <rect x="29" y="12" width="7" height="6.7" rx="1.5" fill="#ee9b00"/>
+      <rect x="29" y="20.65" width="7" height="6.7" rx="1.5" fill="#ca6702"/>
+      <rect x="29" y="29.3" width="7" height="6.7" rx="1.5" fill="#bb3e03"/>
+    </g>
+    <text x="592" y="118" font-size="24" font-weight="700" fill="#e9d8a6">Mesin NAS (Debian)</text>
+    <g font-size="18" fill="#f2efe6">
+      <text x="528" y="172">naskit: memasang, mengatur, update</text>
+      <text x="528" y="206">Caddy · Nextcloud · PostgreSQL · Valkey</text>
+      <text x="528" y="240">Samba untuk folder jaringan</text>
+      <text x="528" y="274">Pemeriksaan disk dan layanan tiap 30 menit</text>
+    </g>
+    <rect x="528" y="306" width="384" height="34" rx="6" fill="#ee9b00"/>
+    <rect x="528" y="348" width="384" height="34" rx="6" fill="#ca6702"/>
+    <text x="544" y="330" font-size="17" fill="#001219">Disk data, Btrfs (satu disk atau raid1)</text>
+    <text x="544" y="372" font-size="17" fill="#001219">Snapshot terjadwal, kuota per pengguna</text>
+    <text x="528" y="420" font-size="17" fill="#94d2bd">Backup restic ke USB, SFTP, atau cloud</text>
+    <text x="528" y="452" font-size="17" fill="#94d2bd">/srv/nas: folder pribadi dan folder grup</text>
+    <!-- outside -->
+    <path d="M940 278 L 1000 278" stroke="#0a9396" stroke-width="3" stroke-dasharray="8 6"/>
+    <rect x="1000" y="196" width="240" height="164" rx="14" fill="#fff" stroke="#d8d3c4" stroke-width="2"/>
+    <text x="1024" y="236" font-size="20" font-weight="700">Dari luar rumah</text>
+    <text x="1024" y="266" font-size="17" fill="#5b6466">lewat Tailscale,</text>
+    <text x="1024" y="292" font-size="17" fill="#5b6466">tanpa membuka</text>
+    <text x="1024" y="318" font-size="17" fill="#5b6466">port di router</text>
+  </g>
+</svg>

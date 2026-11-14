@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t">
+  <title id="t">NASKit: NAS untuk rumah dan kantor kecil dari mini PC atau PC bekas</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#001219"/>
+      <stop offset="1" stop-color="#003641"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g transform="translate(80 92) scale(2)">
+      <rect width="48" height="48" rx="12" fill="#001219" stroke="#0a9396" stroke-width="1"/>
+      <path d="M12 36V12h6l9 13.5V36h-1.5L18 24.5V36z" fill="#e9d8a6"/>
+      <rect x="29" y="12" width="7" height="6.7" rx="1.5" fill="#ee9b00"/>
+      <rect x="29" y="20.65" width="7" height="6.7" rx="1.5" fill="#ca6702"/>
+      <rect x="29" y="29.3" width="7" height="6.7" rx="1.5" fill="#bb3e03"/>
+    </g>
+    <text x="196" y="160" font-size="64" font-weight="700" fill="#e9d8a6">NASKit</text>
+    <text x="80" y="246" font-size="30" fill="#f2efe6">Mini PC atau PC bekas jadi NAS untuk rumah</text>
+    <text x="80" y="288" font-size="30" fill="#f2efe6">dan kantor kecil, dipasang dengan satu perintah.</text>
+    <g font-size="20" fill="#94d2bd">
+      <text x="80" y="346">Nextcloud · Samba · Snapshot Btrfs · Tailscale · Aplikasi Android</text>
+    </g>
+  </g>
+  <!-- mini PC with three drives -->
+  <g transform="translate(860 96)">
+    <rect x="0" y="40" width="300" height="150" rx="18" fill="#0b2a33" stroke="#0a9396" stroke-width="2"/>
+    <rect x="28" y="70" width="160" height="22" rx="5" fill="#ee9b00"/>
+    <rect x="28" y="104" width="160" height="22" rx="5" fill="#ca6702"/>
+    <rect x="28" y="138" width="160" height="22" rx="5" fill="#bb3e03"/>
+    <circle cx="246" cy="81" r="7" fill="#94d2bd"/>
+    <rect x="216" y="112" width="60" height="8" rx="4" fill="#1d4b55"/>
+    <rect x="216" y="130" width="60" height="8" rx="4" fill="#1d4b55"/>
+    <rect x="216" y="148" width="60" height="8" rx="4" fill="#1d4b55"/>
+    <rect x="30" y="190" width="40" height="10" rx="3" fill="#0b2a33"/>
+    <rect x="230" y="190" width="40" height="10" rx="3" fill="#0b2a33"/>
+  </g>
+</svg>
