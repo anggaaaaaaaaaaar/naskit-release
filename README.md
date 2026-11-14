@@ -231,6 +231,16 @@ Isinya:
 Untuk masuk, isi alamat NAS (di rumah, atau `http://100.x.y.z` lewat
 Tailscale), nama pengguna, dan password yang sama dengan Nextcloud.
 
+<p align="center">
+  <img src="docs/img/app-beranda.webp" alt="Beranda aplikasi Android: status sambungan ke NAS, tombol upload, file, foto, brankas, pindai dokumen, dan cadangan foto otomatis" width="260">
+  &nbsp;
+  <img src="docs/img/app-menu.webp" alt="Menu samping aplikasi Android: dua akun NAS di satu HP, Admin NAS, kunci aplikasi, dan paket NAS" width="260">
+</p>
+
+Kiri: beranda setelah masuk. Kanan: menu samping, tempat pindah akun,
+membuka Admin NAS, dan menyalakan kunci aplikasi. Diambil dari versi
+0.57.0; alamat dan nama pengguna di gambar sudah diganti contoh.
+
 ## Update
 
 ```sh
